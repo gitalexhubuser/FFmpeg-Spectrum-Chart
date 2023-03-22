@@ -5,11 +5,19 @@ Bat скрипт при помощи библиотеки ffmpeg преобра�
 - 3 визуализации формы волны
 
 Скрипт для ютуб канала: __Проверка музыки на АП__
+
+На момент публикации репозитория у канала:
+- 54 подписчика
+- 56 289 просмотров
 ![](Img/vlc_2018-07-14_03-14-06.jpg)
 
-![](Video/output.mp4)
+![](https://youtu.be/XsqoKeLr3eY)
 ![](Video\output.mp4)
+# cool-beans
 
+https://youtu.be/XsqoKeLr3eY
+
+Press play to see the video.
 
 ## Create Video from Audio file generating a spectrum chart
 ``
@@ -34,4 +42,5 @@ for %%a in ("*.mp3") do ffmpeg -i "%%a" -filter_complex "[0:a]avectorscope=s=640
 - Получаем __output.mkv__
 
 ## Ссылки
+Ютуб канал: https://www.youtube.com/channel/UCdv-Kc23A6xq74mBACCR-gg
 Репо: https://github.com/gitalexhubuser/FFmpeg-Spectrum-Chart
