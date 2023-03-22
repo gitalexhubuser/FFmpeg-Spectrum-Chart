@@ -1,8 +1,15 @@
 # FFmpeg-Spectrum-Chart
 ## Описание
+Bat скрипт при помощи библиотеки ffmpeg преобразовывает звук в видео, на котором будет присутстовать:
+- название файла
+- 3 визуализации формы волны
+
+Скрипт для ютуб канала: __Проверка музыки на АП__
 ![](Img/vlc_2018-07-14_03-14-06.jpg)
 
-![](Video\output.mkv)
+![](Video/output.mp4)
+![](Video\output.mp4)
+
 
 ## Create Video from Audio file generating a spectrum chart
 ``
@@ -25,15 +32,6 @@ for %%a in ("*.mp3") do ffmpeg -i "%%a" -filter_complex "[0:a]avectorscope=s=640
 - Запустить __cmd-bat.bat__
 - Дождаться закрытия консоли с ffmpeg (рендер видео)
 - Получаем __output.mkv__
-
-
-
-
-# cool-beans
-
-https://example.com/video.mp4
-
-Press play to see the video.
 
 ## Ссылки
 Репо: https://github.com/gitalexhubuser/FFmpeg-Spectrum-Chart
