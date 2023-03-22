@@ -34,3 +34,6 @@ for %%a in ("*.mp3") do ffmpeg -i "%%a" -filter_complex "[0:a]avectorscope=s=640
 https://example.com/video.mp4
 
 Press play to see the video.
+
+## Ссылки
+Репо: https://github.com/gitalexhubuser/FFmpeg-Spectrum-Chart
