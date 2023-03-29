@@ -6,9 +6,11 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        ".vscode": true
+        ".vscode": true,
+        "opensans.ttf": true
     },
     "hide-files.files": [
-        ".vscode"
+        ".vscode",
+        "opensans.ttf"
     ]
 }

@@ -4,4 +4,4 @@ for %%a in ("*.mp3") do ffmpeg -i "%%a" -filter_complex "[0:a]avectorscope=s=640
 
 
 
-pause
+REM pause
