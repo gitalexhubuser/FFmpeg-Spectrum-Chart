@@ -1,4 +1,4 @@
-# FFmpeg-Spectrum-Chart
+# FFmpeg Spectrum Chart
 
 ## Описание
 Bat скрипт при помощи библиотеки ffmpeg преобразовывает звук в видео, на котором будет присутстовать:
